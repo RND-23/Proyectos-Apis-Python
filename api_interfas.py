@@ -59,7 +59,6 @@ def modificar():
             messagebox.showerror("Error", f"No se puedo modificar: {response.text}")
     except Exception as e:
         messagebox.showerror("Error",f"Error al conectar con la Api: {e}")
- 
 def eliminar():
     id_animal = cam_id.get().strip()
     if id_animal == "":
