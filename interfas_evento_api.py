@@ -38,6 +38,7 @@ def agregar():
         messagebox.showerror("Error",f"No se pudo conectar con la API: {e}")
   
 def modificar():
+    
     id_evento = cam_id.get().strip()
     if id_evento == "":
         messagebox.showwarning("Error", "Ingrese el id del evento a modificar")
